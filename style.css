@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+}
+html, body{
+    font-family: Arial, sans-serif;
+    height:100%;
+    overflow: hidden;
+}
+
+#hHistoire{
+    width: 100%;
+    color:yellow;
+    height:80%;
+    background-color:black;
+    overflow-y:scroll;
+}
+
+#hPied, hHistoire:after{
+    position: static;
+    bottom: 0;
+    height: 20%;
+}
+
+#hQuestion {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #EEE;
+    color: #333;
+}
+
+#hReponse{
+    padding: 10px 0;
+    width: 100%;
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    display: none;
+}
+
+.hEpisode{
+    display: none;
+}
+
+p{
+    margin-top: 1em;
+}
